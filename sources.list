@@ -7,9 +7,13 @@ deb http://security.debian.org/debian-security bookworm-security main contrib
 deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
 deb http://download.proxmox.com/debian/pve bookworm pvetest
 
-Ceph-fs options communitu/free
+#Ceph-fs options communitu/free
 deb http://download.proxmox.com/debian/ceph-reef bookworm no-subscription
 deb http://download.proxmox.com/debian/ceph-reef bookworm test
 deb http://download.proxmox.com/debian/ceph-quincy bookworm no-subscription
 deb http://download.proxmox.com/debian/ceph-quincy bookworm test
 
+#Non-free firmware
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
